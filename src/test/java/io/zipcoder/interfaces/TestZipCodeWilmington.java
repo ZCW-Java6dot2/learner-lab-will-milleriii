@@ -29,4 +29,5 @@ public class TestZipCodeWilmington {
         Assert.assertEquals(ZipCodeWilmington.getInstructors().size(), 6);
 
     }
+
 }

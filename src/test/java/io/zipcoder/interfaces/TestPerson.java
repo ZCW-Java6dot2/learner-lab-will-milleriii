@@ -8,20 +8,17 @@ public class TestPerson {
     @Test
     public void testConstructor(){
         String expectedName = "Will";
-        long expectedId = 1;
 
-        Person will = new Person(expectedId, expectedName);
+        Person will = new Person(expectedName);
 
-        Assert.assertEquals(expectedId, will.getId());
         Assert.assertEquals(expectedName, will.getName());
     }
 
     @Test
     public void testSetName(){
         String expectedName = "Will";
-        long expectedId = 1;
 
-        Person will = new Person(expectedId, expectedName);
+        Person will = new Person(expectedName);
         String actualName = "Miller";
 
         will.setName(actualName);

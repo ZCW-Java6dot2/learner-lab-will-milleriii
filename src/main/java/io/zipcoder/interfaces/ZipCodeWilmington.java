@@ -3,7 +3,7 @@ package io.zipcoder.interfaces;
 import java.util.ArrayList;
 
 public class ZipCodeWilmington {
-    /*private static ArrayList<Instructor> instructorList = new ArrayList<Instructor>();
+    private static ArrayList<Instructor> instructorList = new ArrayList<Instructor>();
     static { // static initializer
         String[] instructorNames = { "Leon", "Tariq", "Froilan", "David", "Zach", "Iyasu" };
         for (String instructorName : instructorNames) {
@@ -11,8 +11,8 @@ public class ZipCodeWilmington {
             hire(instructor);
         }
     }
-    public static void hire(Instructor instructorList) {
-
+    public static void hire(Instructor instructor) {
+        instructorList.add(instructor);
     }
 
     public static ArrayList<Instructor> getInstructors(){
@@ -21,5 +21,6 @@ public class ZipCodeWilmington {
 
     public static void fireStaff(){
         instructorList.clear();
-    }*/
+        instructorList.isEmpty();
+    }
 }
